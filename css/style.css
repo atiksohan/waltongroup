@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*--Nav bar section start--*/
+
+#product_list{
+	position:relative;
+	z-index:99
+}
+
+
+#navbar img{
+	width: 71px;
+	height: 32px;
+	padding: 2px 0px 0px 4px;
+	margin-top: 8px;
+  margin-left: -8px;
+}
+
+#navbar ul{
+	list-style: none;
+	color: white;
+	background-color: black;
+	display: flex;
+	font-family: sans-serif;
+}
+
+#navbar ul a{
+	text-decoration: none;
+	color: white;
+}
+
+#navbar ul li{
+	margin: 0px 42.6px;
+	padding: 13px 0px 9px 0px;
+	text-wrap: nowrap;
+	width: 5%;
+}
+
+#navbar ul li button{
+	padding: 0px 5px;
+    color: white;
+    background-image: linear-gradient(to right, #7604C5, #B48CCF);
+}
+
+#navbar ul li:hover{
+	color: #9999e6;
+	border-radius: 5px;
+}
+
+#navbar ul button:hover{
+	color: black;
+	background-image: linear-gradient(to right, #7604C5, #B48CCF);
+}
+
+#navbar ul li ul{
+	display: none;
+	margin: 0px 0px 0px -29px;
+    width: 16%;
+    padding: 0px
+}
+
+#navbar ul li:hover ul{
+	display: block;
+	position: fixed;
+	text-align: center;
+}
+
+#navbar ul li ul li:hover{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	color: #00ff00;
+}
+
+#navbar ul li ul li ul li{
+	display: none;
+	width: 100%;
+	margin: 0px;
+}
+
+
+
+#navbar ul li ul li:hover ul li{
+	display: block;
+	margin-left: -30px;
+}
+
+#navbar .sub_list{
+	margin: -33px 0px 0px 224.9px;
+	padding: 0px;
+}
+
+#navbar .sub_list a{
+	text-decoration: none;
+	color: white;
+}
+/*--Nav bar section end--*/
+
+/*--Carousel Section start--*/
+
+#slider{
+	margin-top: -60px;
+}
+
+/*--Carousel Section end--*/
+
+/*--Display menu section start--*/
+#menu .fridge img{
+	width: 100%;
+	height: 100%;
+	margin-top: -16px;
+}
+
+#menu .ac_img img{
+	height: 100%;
+	width: 100%;
+	margin-top: -16px;
+}
+
+#menu .pc_img img{
+	width: 100%;
+	height: 100%;
+	margin-top: -16px;
+}
+
+#menu .phn_img img{
+	width: 100%;
+	height: 100%;
+	margin-top: -16px;
+}
+
+#menu .tv_img img{
+	width: 100%;
+	height: 100%;
+	margin-top: -16px;
+}
+
+#menu .wm_img img{
+	height: 100%;
+	width: 100%;
+	margin-top: -16px;
+}
+
+#menu .ha_img img{
+	width: 100%;
+	height: 100%;
+	margin-top: -16px;
+}
+
+#menu .oven_img img{
+	width: 100%;
+	height: 100%;
+	margin-top: -16px;
+}
+
+
+#menu .ac_text{
+	padding: 180px 10px 0px 120px;
+}
+
+#menu .phn_text{
+	padding: 160px 20px 0px 50px;
+}
+
+#menu .wm_text{
+	padding: 180px 10px 0px 100px;
+}
+
+#menu .oven_text{
+	padding: 160px 20px 0px 50px;
+}
+
+/*--Display menu section end--*/
+
+
+/*-----Footer Section Start-----*/
+#footer{
+  text-align: center;
+  padding: 5px 3px;
+  background-color: black;
+  color: white;
+  margin: -16px 0px;
+}
+
+#footer .fa-brands{
+  background-color: grey;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+}
+
+#footer .introduce{
+	padding-left: 20px;
+}
+
+#footer .products h5{
+  margin-left: 26px;
+}
+
+ul{
+  list-style: none;
+  text-align: left;
+  margin: 0px;
+}
+
+#footer .support{
+  text-align: left;
+}
+
+/*-----Footer Section End-----*/

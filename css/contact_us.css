@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*--contact us section start--*/
+
+#card .row .card h4{
+	text-align: center;
+}
+
+#card .row .card{
+	width: 352px;
+	height: 230px;
+	margin: 28px 38.5px 0px 38.5px;
+	padding: 95px 0px 0px 0px;
+	background-image: linear-gradient(to bottom right,#1e033b, #180340, #350394);
+	color: white;
+	opacity: 90%;
+	box-shadow: 4px 4px 5px;
+}
+
+#card .row .card:hover{
+	color: blue;
+	background-image: linear-gradient(to bottom right,#2d0578, #9950e6, #37036e);
+	box-shadow: 0px 0px 4px;
+	font-weight: bold;
+
+/*--contact us section end--*/
